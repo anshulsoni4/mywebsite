@@ -1,0 +1,618 @@
+body {
+	font-size: 18px;
+	font-family: georgia, times, sans-serif;
+	background-color: #C2CBCE;
+}
+#container{
+	width: 760px;
+	margin: 0 auto;
+}
+header {
+	text-align: center;
+	background: #fff;
+	color: #1a71b8;
+	padding: 10px;
+}
+
+
+h1 {
+	text-align: center;
+    color: #1a71b8;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px lightblue;
+  text-shadow: 8px 6px 4px #1a71b;
+  font-size: 44px;
+
+}
+
+.moving {
+	font: Brush Script MT;
+	
+}
+
+fieldset {
+	padding: 20px;
+	border: solid 2px #aaa;
+	background-color: lightblue; 
+	box-shadow: 2px 2px 7px 4px #1a71b8;
+}
+
+fieldset legend {
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 10px;
+	border: dotted 2px black;
+	box-shadow: 2px 2px 7px 4px #1a71b8;
+  font-size: 32px;
+  font-style: italic;
+  color: darkslategrey;
+}
+
+/*----------homepage-----------*/
+
+/*buttons-----------*/
+.btn {
+  border: solid 2px /* Remove borders */
+  color: #1a71b8; /* Add a text color */
+  background-color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  border-radius: 7px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+
+.blog {
+  border-color: #2196F3;
+  color: dodgerblue ;
+  
+}
+
+.blog:hover {
+  background: #2196F3;
+  color: white ;
+  text-decoration: none;
+}
+
+.about {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.about:hover {
+  background: #2196F3;
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.contact:hover {
+  background: #2196F3;
+  color: white;
+  text-decoration: none;
+}
+.links {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.links:hover {
+  background: #2196F3;
+  color: white;
+  text-decoration: none;
+}
+.home {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.home:hover {
+  background: #2196F3;
+  color: white ;
+  text-decoration: none;
+}
+
+/*----------------------------------------------*/
+
+.button {
+
+	position: fixed;
+  bottom: 20px;
+  right: 30px;
+
+}
+
+.button {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.button:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/*-------------------------------------------------------*/
+
+.field {
+  height: 1000px;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+  
+  color: #1a71b8;
+  text-align: center;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+  background-color: white;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.credits {
+  font-size: 12px;
+  text-align: left;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+
+  width: 20%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: right;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: none;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  float: right;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/*----------forms---------*/
+
+
+body {
+  font-size: 18px;
+  font-family: georgia, times, sans-serif;
+  background-color: #C2CBCE;
+}
+
+
+
+h1 {
+  text-align: center;
+  background: #fff;
+  color: #1a71b8;
+  padding: 20px;
+  
+  text-align: center;
+  background: #fff;
+  color: #1a71b8;
+  padding: 10px;
+
+}
+
+
+
+#container{
+  width: 900px;
+  margin: 0 auto;
+  
+}
+
+fieldset {
+  padding: 20px;
+  border: dotted 4px #aaa;
+  background-color: lightblue; 
+}
+
+
+fieldset legend {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: solid 4px black;
+  text-shadow: black;
+  color: darkred;
+}
+
+
+
+
+input[type="text"], 
+input[type="email"],
+textarea {
+  padding: 10px;
+  border-top: none;
+  margin: 0 0 20px;
+  border: solid 3px #454545;
+  display: block;
+  width: 80%;
+  font-size: 14px;
+  color: #777;
+  font-family: monaco, monospace;
+  text-transform: uppercase;
+}
+
+textarea{
+  resize: none;
+}
+
+label {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: darkgray;
+  display: block;
+  width: 46%;
+  padding: 1%;
+  color: white;
+}
+
+input[type="submit"] {
+  background: none;
+  background: url(Images/button_background.jpg) repeat-x;
+  height: 40px;
+  border: solid 2px #777;
+  padding: 0 40px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.contact {
+  text-align: center;
+  background: #fff;
+  color: #1a71b8;
+  padding: 10px;
+}
+
+/*--------scroll to top---*/
+
+.scroll {
+  float: right;
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.scroll:hover {
+  background: #2196F3;
+  color: white;
+  text-decoration: none;
+}
+
+.terms p {
+  font-size: 12px;
+}
+
+/*---------about------------*/
+
+.about-first {
+  font-size: 20px;
+  font-family: sans-serif monospace;
+  color: darkblue;
+}
+
+.about-image {
+  border: solid 4px;
+}
+
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 70%; background-color: #2196F3;} /* Blue */
+.js {width: 20%; background-color: #f44336;} /* Red */
+.php {width: 45%; background-color: #808080;} /* Dark Grey */
+.excel {width: 85%; background-color: #cc33ff;}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+hr {
+  color: #cc33ff;
+}
+
+
+/*-------------social---------*/
+
+.column {
+  text-align: center;
+}
+
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 11PX;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 16px;
+  margin-right: 16px;
+  font-size: 17px;
+
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 90%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+
+
+/* Pagination links */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+/*---------blogs--------*/
+/* Blog Stylesheet */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: georgia, times, sans-serif;
+  background-color: #C2CBCE;
+}
+
+h1,h2,h4{
+  font-family: helvetica, Arial,sans-serif;
+}
+
+h3 {
+  font-size: 26px;
+  font-family: helvetica, Arial,sans-serif;
+}
+
+h4 {
+  font-size: 26px;
+  font-family: helvetica, Arial,sans-serif;
+}
+
+
+#container{
+  width: 760px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background: #fff;
+  color: #1a71b8;
+  padding: 20px;
+}
+
+article {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+article p {
+  margin: 0 0 1em;
+}
+
+section.post-head small {
+  display: block;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 4px #eee;
+  color: #00c6a0;
+}
+
+section.post-foot {
+  font-size: 13px;
+  border-top: solid 2px #eee;
+  margin: 20px 0 0;
+  padding: 20px 0 0;
+}
+
+footer {
+  text-align: center;
+  color: #1a71b8;
+  font-size: 20px;
+}
+
+/*------------------homepage----------------*/
+
+#container {
+  text-shadow: skyblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+fieldset {
+  padding: 20px;
+  border: solid 2px #aaa;
+  background-color: ; 
+  box-shadow: 2px 2px 7px 4px #1a71b8;
+}
+
+
+legend {
+  background-color: lightcoral;
+}
+
+
+fieldset legend {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: dotted 2px black;
+  box-shadow: 2px 2px 7px 4px #1a71b8;
+}
